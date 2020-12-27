@@ -1,0 +1,32 @@
+{
+  "name": "theta",
+  "version": "1.0.0",
+  "description": "Options strategy trading platform",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Collect-Theta/theta.git"
+  },
+  "author": "Edmond Hui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Collect-Theta/theta/issues"
+  },
+  "homepage": "https://github.com/Collect-Theta/theta#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.8",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "validator": "^13.5.2"
+  }
+}
